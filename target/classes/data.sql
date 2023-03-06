@@ -1,0 +1,4 @@
+insert into Task(title,description,duedate,completestatus,createdate) values('SAP Impmentation', 'SAP project implemented by a consultent team with 6 months','2023-09-23','No','2023-01-10');
+insert into Task(title,description,duedate,completestatus,createdate) values('EDI Migration', 'EDI project will magrate from local database to clouds with 3 weeks','2023-04-20','No','2023-01-12');  
+insert into Task(title,description,duedate,completestatus,createdate) values('Demo Project', 'A demo project to show how to make this project to work 1 week','2023-03-15','Yes','2023-02-18');  
+insert into Task(title,description,duedate,completestatus,createdate) values('Kevin Homework', 'This home work is for demo project','2023-04-15','No','2023-03-05');  

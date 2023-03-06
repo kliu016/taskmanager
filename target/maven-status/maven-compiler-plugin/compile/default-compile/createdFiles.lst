@@ -1,0 +1,4 @@
+com/springboot/demo/controller/TaskManagerController.class
+com/springboot/demo/SpringBootTaskManagerAppApplication.class
+com/springboot/demo/dao/TaskRepository.class
+com/springboot/demo/model/Task.class
