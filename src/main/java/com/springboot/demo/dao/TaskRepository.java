@@ -13,9 +13,6 @@ import com.springboot.demo.model.Task;
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Integer> {
 		
-	@Query("SELECT u FROM Task u WHERE u.id = :id")
-	Task getTaskById(@Param("id") String id);
-
 	@Query("SELECT m FROM Task m WHERE m.description LIKE %:keyword%")
 	List<Task> findByKeword(String keyword);
 	

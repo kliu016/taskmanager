@@ -62,3 +62,17 @@ public class Task {
 	}	
 	
 }
+
+
+/*
+create table Task (
+id integer not null auto_increment, 
+title varchar(255), 
+descripton varchar(255), 
+dueDate datetime, 
+owner varchar(255), 
+createDate datetime, 
+primary key (id)
+) engine=MyISAM  
+ 
+*/
